@@ -1,10 +1,10 @@
 ---------
 DIALOGO
 
-¡Hola!
+¡Hola! 
 
-Soy David y estoy encargado del desarrollo
-de la aplicación móvil.
+Soy David y estoy encargado de Mirar y admirar
+los mofles de Gheve
 
 La aplicación permite llevar nuestros
 servicios y procesos directamente
