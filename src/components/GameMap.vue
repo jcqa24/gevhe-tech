@@ -3,6 +3,7 @@ import { ref, onMounted, onUnmounted } from 'vue'
 
 import DialogueBox from './DialogueBox.vue'
 import { getDialogue } from '../game/dialogueLoader'
+import Presentation from './Presentation.vue'
 
 const activeCharacter = ref(null)
 const activeDialogue = ref(null)
@@ -127,7 +128,15 @@ const characters = [
 let animationFrame
 
 function handleKeyDown(event) {
-  switch (event.key.toLowerCase()) {
+  const key = event.key.toLowerCase()
+
+  // Interacción
+  if (key === 'e') {
+    startDialogue()
+    return
+  }
+
+  switch (key) {
     case 'w':
     case 'arrowup':
       keys.value.up = true
@@ -151,6 +160,7 @@ function handleKeyDown(event) {
 }
 
 function handleKeyUp(event) {
+
   switch (event.key.toLowerCase()) {
     case 'w':
     case 'arrowup':
@@ -175,13 +185,6 @@ function handleKeyUp(event) {
 }
 
 function movePlayer() {
-
-      const key = event.key.toLowerCase()
-
-  if (key === 'e') {
-    startDialogue()
-    return
-  }
 
   if (keys.value.up) {
     player.value.y -= speed
@@ -208,7 +211,6 @@ function movePlayer() {
     8,
     Math.min(92, player.value.y)
   )
-  
 
   nearbyCharacter.value = null
 
@@ -222,7 +224,33 @@ function movePlayer() {
   }
 
   animationFrame = requestAnimationFrame(movePlayer)
-}
+}onMounted(() => {
+  window.addEventListener('keydown', handleKeyDown)
+  window.addEventListener('keyup', handleKeyUp)
+
+  animationFrame = requestAnimationFrame(movePlayer)
+})
+
+onUnmounted(() => {
+  window.removeEventListener('keydown', handleKeyDown)
+  window.removeEventListener('keyup', handleKeyUp)
+
+  cancelAnimationFrame(animationFrame)
+})
+
+  nearbyCharacter.value = null
+
+  for (const character of characters) {
+    const distance = calculateDistance(character)
+
+    if (distance <= interactionDistance) {
+      nearbyCharacter.value = character
+      break
+    }
+  }
+
+  animationFrame = requestAnimationFrame(movePlayer)
+
 
 onMounted(() => {
   window.addEventListener('keydown', handleKeyDown)
@@ -361,10 +389,26 @@ onUnmounted(() => {
 
   </div>
 
-  <DialogueBox
-  v-if="activeCharacter && activeDialogue"
+<DialogueBox
+  v-if="
+    activeCharacter &&
+    activeDialogue &&
+    activeDialogue.type === 'dialogue'
+  "
   :character="activeCharacter"
   :dialogue="activeDialogue"
+  @continue="continueDialogue"
+  @close="closeDialogue"
+/>
+
+<Presentation
+  v-if="
+    activeCharacter &&
+    activeDialogue &&
+    activeDialogue.type === 'slide'
+  "
+  :character="activeCharacter"
+  :slide="activeDialogue"
   @continue="continueDialogue"
   @close="closeDialogue"
 />
