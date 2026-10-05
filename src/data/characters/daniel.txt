@@ -1,0 +1,59 @@
+---------
+DIALOGO
+
+Hola.
+
+Yo también trabajo principalmente
+con SIGEV y el CRM.
+
+Nuestro trabajo no termina cuando
+un sistema comienza a funcionar.
+
+Constantemente tenemos que mantenerlo,
+mejorarlo y adaptarlo a las necesidades
+de la empresa.
+
+---------
+
+SLIDE
+
+TITULO: SIGEV + CRM
+
+SUBTITULO: Información conectada con el negocio
+
+CONTENIDO:
+Los sistemas permiten que diferentes
+procesos y áreas puedan trabajar
+con información centralizada.
+
+---------
+
+SLIDE
+
+TITULO: Nuestro trabajo
+
+ITEM: Desarrollo
+
+ITEM: Mantenimiento
+
+ITEM: Soporte
+
+ITEM: Mejoras
+
+ITEM: Integraciones
+
+---------
+
+SLIDE
+
+TITULO: Escuchar al usuario
+
+CONTENIDO:
+Una parte fundamental del desarrollo
+es entender las necesidades de quienes
+utilizan nuestros sistemas diariamente.
+
+La tecnología debe resolver problemas,
+no crear más problemas.
+
+---------

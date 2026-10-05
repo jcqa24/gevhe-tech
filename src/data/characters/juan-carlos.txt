@@ -1,0 +1,36 @@
+---------
+DIALOGO
+
+
+
+Hola, soy Juan Carlos.
+
+Trabajo principalmente con Inteligencia Artificial.
+
+---------
+
+SLIDE
+
+TITULO: Inteligencia Artificial
+
+SUBTITULO: Tecnología para transformar procesos
+
+
+
+CONTENIDO:
+Utilizamos inteligencia artificial para automatizar
+procesos, analizar información y crear nuevas
+herramientas para la empresa.
+
+---------
+
+SLIDE
+
+TITULO: ¿Qué hacemos?
+
+
+
+ITEM: Automatización
+ITEM: Asistentes inteligentes
+ITEM: Análisis de información
+ITEM: Integración con sistemas

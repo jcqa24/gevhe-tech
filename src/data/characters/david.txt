@@ -1,0 +1,55 @@
+---------
+DIALOGO
+
+¡Hola!
+
+Soy David y estoy encargado del desarrollo
+de la aplicación móvil.
+
+La aplicación permite llevar nuestros
+servicios y procesos directamente
+hasta nuestros usuarios.
+
+---------
+
+SLIDE
+
+TITULO: Aplicación móvil
+
+SUBTITULO: Tecnología al alcance del usuario
+
+CONTENIDO:
+Desarrollamos una aplicación móvil
+para facilitar el acceso a nuestros
+servicios y mejorar la experiencia
+de nuestros usuarios.
+
+---------
+
+SLIDE
+
+TITULO: ¿Qué implica una aplicación?
+
+ITEM: Diseño de interfaces
+
+ITEM: Desarrollo móvil
+
+ITEM: Integración con APIs
+
+ITEM: Comunicación con servidores
+
+ITEM: Experiencia del usuario
+
+---------
+
+SLIDE
+
+TITULO: Del código al usuario
+
+CONTENIDO:
+Detrás de una aplicación existen
+diferentes sistemas que deben trabajar
+juntos para que el usuario tenga
+una experiencia rápida y sencilla.
+
+---------

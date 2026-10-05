@@ -1,0 +1,60 @@
+---------
+DIALOGO
+
+Hola, soy Charly.
+
+Bienvenidos al equipo de Tecnología de Grupo Gevhe.
+
+Hoy vamos a hacer algo diferente.
+
+En lugar de una presentación tradicional,
+vamos a recorrer nuestra oficina y conocer
+qué hacemos dentro del equipo.
+
+Cuando termines de hablar conmigo,
+puedes conocer al resto del equipo.
+
+---------
+
+SLIDE
+
+TITULO: Tecnología en Grupo Gevhe
+
+SUBTITULO: La tecnología detrás de nuestros procesos
+
+CONTENIDO:
+Nuestro objetivo es desarrollar soluciones
+que ayuden a la empresa a trabajar mejor,
+automatizar procesos y aprovechar la información.
+
+---------
+
+SLIDE
+
+TITULO: Nuestro equipo
+
+CONTENIDO:
+Inteligencia Artificial
+
+Aplicaciones móviles
+
+SIGEV y CRM
+
+Automatización
+
+Coordinación tecnológica
+
+---------
+
+SLIDE
+
+TITULO: Una mirada al equipo
+
+CONTENIDO:
+Cada integrante tiene una especialidad,
+pero todos trabajamos con un mismo objetivo:
+
+Convertir necesidades de la empresa
+en soluciones tecnológicas.
+
+---------

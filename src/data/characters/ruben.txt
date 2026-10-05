@@ -1,0 +1,60 @@
+---------
+DIALOGO
+
+¡Hola!
+
+Aunque estoy trabajando de manera remota,
+sigo formando parte del equipo.
+
+Soy Rubén, Team Leader.
+
+Mi trabajo consiste en ayudar a coordinar
+al equipo y mantener los proyectos
+avanzando en la dirección correcta.
+
+---------
+
+SLIDE
+
+TITULO: Team Leader
+
+SUBTITULO: Coordinación y dirección tecnológica
+
+CONTENIDO:
+Coordinar un equipo de tecnología
+implica mucho más que asignar tareas.
+
+También debemos entender prioridades,
+resolver bloqueos y ayudar al equipo
+a tomar buenas decisiones.
+
+---------
+
+SLIDE
+
+TITULO: El equipo
+
+ITEM: Comunicación
+
+ITEM: Planeación
+
+ITEM: Seguimiento
+
+ITEM: Resolución de problemas
+
+ITEM: Trabajo en equipo
+
+---------
+
+SLIDE
+
+TITULO: Tecnología es trabajo en equipo
+
+CONTENIDO:
+Detrás de cada proyecto hay personas
+con diferentes conocimientos y habilidades.
+
+La tecnología funciona cuando
+todos trabajamos hacia el mismo objetivo.
+
+---------

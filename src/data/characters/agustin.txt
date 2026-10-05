@@ -1,0 +1,50 @@
+---------
+DIALOGO
+
+Hola, soy Agustín.
+
+Trabajo con SIGEV y el CRM de la empresa.
+
+Estos sistemas son una parte importante
+de la operación diaria de Grupo Gevhe.
+
+---------
+
+SLIDE
+
+TITULO: SIGEV
+
+SUBTITULO: Sistemas que apoyan nuestra operación
+
+CONTENIDO:
+SIGEV es una de las herramientas
+que utilizamos para gestionar información
+y procesos dentro de la empresa.
+
+---------
+
+SLIDE
+
+TITULO: Tecnología + procesos
+
+CONTENIDO:
+Una parte importante de nuestro trabajo
+es entender cómo funciona la operación
+y convertir esos procesos en sistemas
+que puedan ser utilizados diariamente.
+
+---------
+
+SLIDE
+
+TITULO: Evolución constante
+
+ITEM: Nuevas funcionalidades
+
+ITEM: Mejoras a procesos
+
+ITEM: Corrección de errores
+
+ITEM: Integración con otros sistemas
+
+---------
